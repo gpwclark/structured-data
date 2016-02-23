@@ -87,7 +87,7 @@
   (or (apply >= a-seq) (apply <= a-seq)))
 
 (defn stars [n]
-  :-)
+  (apply str (repeat n "*")))
 
 (defn toggle [a-set elem]
   :-)
